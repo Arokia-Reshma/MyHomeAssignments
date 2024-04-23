@@ -1,8 +1,8 @@
 package home.assignment3;
 
-public class TestData {
+public class TestData extends LoginTestData {
 	public void enterCredentials() {
-		System.out.println(" Welcome");
+		System.out.println(" Enter your Credentials");
 	}
 		public void navigateToHomePage() {
 			System.out.println("Home");
@@ -13,6 +13,8 @@ public class TestData {
 		TestData td = new TestData();
 		td.enterCredentials();
 		td.navigateToHomePage();
+		td.enterUsername();
+		td.enterPassword();
 
 	}
 

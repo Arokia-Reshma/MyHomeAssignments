@@ -15,9 +15,8 @@ public class APIClient {
 	public static void main(String[] args) {
 		//Overloading ol =new Overloading();
 		APIClient ap = new APIClient();
-		
-		ap.sendRequest("endpoint");
-		ap.sendRequest("endpoint" ,"requestBody" , true);
+			ap.sendRequest("endpoint");
+			ap.sendRequest("endpoint" ,"requestBody" , true);
 		
 		
 
